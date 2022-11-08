@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import mainLogo from '../../assets/img/logo-4.png';
+import mainLogo from '../../assets/img/mLogo.svg';
 import MobileMenu from "./MobileMenu";
 import OffsetMenu from "./OffsetMenu";
 
@@ -27,7 +27,7 @@ const HeaderFour = () => {
     <header className="header-wrap header-1 header-4">
         <div className="container-fluid d-flex justify-content-between align-items-center">
             <div className="logo">
-                <Link to='/'>
+                <Link to='/' style={{display: 'inline-block', minWidth: '260px'}}>
                     <img src={mainLogo} alt="logo"/>
                 </Link>
             </div>

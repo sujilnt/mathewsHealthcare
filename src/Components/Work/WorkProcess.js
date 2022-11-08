@@ -10,12 +10,11 @@ const WorkProcess = () => {
                         <div className="col-md-6 col-lg-4 border-right col-xl-4 col-12" key={data.id}>
                             <div className="single-work-process-item">
                                 <div className="icon">
-                                    <i className={`flaticon-${data.icon}`}></i>
+                                    <i className={`${data.icon}`}></i>
                                 </div>
                                 <div className="contents">
                                     <span>{data.subTitle}</span>
                                     <h5>{data.title}</h5>
-                                    <p>{data.desc}</p>
                                 </div>
                             </div>
                         </div>

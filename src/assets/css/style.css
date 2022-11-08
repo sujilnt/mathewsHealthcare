@@ -2383,13 +2383,13 @@ header.header-1 {
 
 @media (min-width: 1350px) {
   header.header-1 {
-    padding: 20px 85px;
+    padding: 17px 85px;
   }
 }
 
 @media (max-width: 1349px) {
   header.header-1 {
-    padding: 20px 0px;
+    padding: 17px 0px;
   }
 }
 
@@ -2650,11 +2650,11 @@ header.header-4 .main-menu ul > li:hover > a {
 }
 
 header.header-4 .main-menu ul > li a {
-  color: #fff;
+  color: #001659;
 }
 
 header.header-4 .main-menu ul > li a:hover {
-  color: #FFBB00 !important;
+  color: #2FA4FF !important;
 }
 
 header .header-top-bar {

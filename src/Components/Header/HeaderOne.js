@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import mainLogo from '../../assets/img/logo.png';
+import mainLogo from '../../assets/img/mLogo.svg';
 import MobileMenu from "./MobileMenu";
 import OffsetMenu from "./OffsetMenu";
 
@@ -26,8 +26,13 @@ const HeaderOne = () => {
     <OffsetMenu offset={offset} handleOffset={handleOffset}  />
     <header className="header-wrap header-1">
         <div className="container-fluid d-flex justify-content-between align-items-center">
-            <div className="logo">
-                <Link to='/'>
+            <div className="logo" style={{position:'relative'}}>
+                <Link to='/' style={{
+                    display: 'inline-block', 
+                minWidth: '232px',
+                position: 'absolute',
+                top: '-36px'
+                }}>
                     <img src={mainLogo} alt="logo"/>
                 </Link>
             </div>
@@ -37,7 +42,7 @@ const HeaderOne = () => {
                         <li><a href="#">Home <i className="fal fa-plus"></i></a>
                             <ul className="sub-menu">
                                 <li><Link to="/">homepage 1</Link></li>
-                                <li><Link to="/homeTwo">homepage 2</Link></li>
+                                <li><Link to="/education">education</Link></li>
                                 <li><Link to="/homeThree">homepage 3</Link></li>
                                 <li><Link to="/homeFour">homepage 4</Link></li>
                             </ul>
