@@ -1,5 +1,5 @@
 import {v4 as uuidv4} from 'uuid';
-import img1 from '../../assets/img/team/1.png';
+import img1 from '../../assets/img/team/jossy.jpg';
 import img2 from '../../assets/img/team/2.png';
 import img3 from '../../assets/img/team/3.png';
 
@@ -7,8 +7,8 @@ const teamOneData = [
     {
         id: uuidv4(),
         img: img1,
-        name: 'Abraham Reza',
-        designation: 'Contructor',
+        name: 'Dr Jossy Mathew',
+        designation: 'Professor',
         fb: '#',
         twitter: '#',
         insta: '#',
@@ -18,8 +18,8 @@ const teamOneData = [
     {
         id: uuidv4(),
         img: img2,
-        name: 'Salman Ahmed',
-        designation: 'Engineer',
+        name: 'Dolly Jossy',
+        designation: ' Senior Nurse',
         fb: '#',
         twitter: '#',
         insta: '#',
@@ -29,8 +29,8 @@ const teamOneData = [
     {
         id: uuidv4(),
         img: img3,
-        name: 'Daniel David',
-        designation: 'Mechanic',
+        name: 'Dr Alan Jossy',
+        designation: 'Doctor',
         fb: '#',
         twitter: '#',
         insta: '#',

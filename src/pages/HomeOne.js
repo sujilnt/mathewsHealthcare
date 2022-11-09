@@ -23,12 +23,8 @@ const HomeOne = () => {
         <AboutOne/>
         <ServicesOne/>
         <CtaOne/>
-        <FeaturesOne/>
-        <BrandCarouselOne/>
         <TestimonialOne/>
-        <PortfolioOne/>
         <TeamOne/>
-        <FaqOne/>
         <BlogOne/>
         <FooterOne/>
         </>
